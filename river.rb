@@ -4,11 +4,8 @@ class River
   
   attr_writer :name, :length, :countries, :discharge
   
-  def initialize (name, length, countries, discharge)
+  def initialize (name)
     @name = name
-    @length  = length
-    @countries = countries
-    @discharge = discharge
   end
   
   def flood
@@ -18,3 +15,5 @@ class River
   end
   
 end
+
+test_river = River.new
