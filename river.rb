@@ -16,4 +16,4 @@ class River
   
 end
 
-test_river = River.new
+test_river = River.new("Mississippi")
