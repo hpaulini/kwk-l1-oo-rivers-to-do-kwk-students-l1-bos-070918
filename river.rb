@@ -2,6 +2,6 @@
 
 class River
   
-  attr_accessor :name, :length, :countries
+  attr_writer :name, :length, :countries
   
 end
