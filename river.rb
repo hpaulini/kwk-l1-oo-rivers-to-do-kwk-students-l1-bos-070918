@@ -2,7 +2,7 @@
 
 class River
   
-  attr_writer :name, :length, :countries
+  attr_writer :name, :length, :countries, :discharge
   
   def initialize
     
