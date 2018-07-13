@@ -8,4 +8,10 @@ class River
     
   end
   
+  def flood
+  end
+  
+  def dry_up
+  end
+  
 end
